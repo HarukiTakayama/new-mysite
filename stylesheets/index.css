@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 20px 100px;
+    font-size: 18px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    background-color: #F5F6CE;
+    display: block;
+}
+h1 {
+    margin-bottom: 10px; 
+}
+
+header {
+    margin: 20px 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header li {
+    padding: 10px;
+    border-left: solid #000 1px;
+}
+
+main {
+    padding: 100px 0;
+}
+
+#profile {
+    display: flex;
+    margin-bottom: 85px;
+}
+
+.profile-content {
+    margin-left: 60px;
+}
+
+#past-activities {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 70px;
+}
+
+.past-content {
+    margin-right: 60px;
+}
+
+#current-activities {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.current-content {
+    margin-left: 60px;
+}
+
+#future-activities {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.future-content {
+    margin-right: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 10px 30px 0;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: inherit;
+    font-weight: bold;
+    margin: 10px;
+}
+
+a:hover {
+    color: #777777;
+}
+
+i {
+    font-size: 30px;
+    color: rgba(40, 180, 15, 0.9); 
+}
